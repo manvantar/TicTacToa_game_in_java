@@ -13,7 +13,7 @@ public class TicTakToa {
 	char chooseXorO(){
 		char xoro=' ';
 
-		while(xoro!='x' || xoro !='0' || xoro !='X'||xoro!='O') {
+		while(xoro!='x' && xoro !='o' && xoro !='X'&&xoro!='O') {
 			System.out.println("Player 1 select X or O");
 			Scanner s=new Scanner(System.in);
 			xoro=s.next().charAt(0);
