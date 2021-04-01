@@ -20,9 +20,11 @@ public class TicTakToa {
 		}
 		if(xoro=='X') {
 			xoro='x';
+			System.out.println("Player 2 have to use 'o'");
 		}
 		else if(xoro=='O') {
 			xoro='o';
+			System.out.println("Player 2 have to use 'x'");
 		}
 		
 		return xoro;
