@@ -18,11 +18,11 @@ public class TicTakToa {
 			Scanner s=new Scanner(System.in);
 			xoro=s.next().charAt(0);
 		}
-		if(xoro=='X') {
+		if(xoro=='X'||xoro=='x') {
 			xoro='x';
 			System.out.println("Player 2 have to use 'o'");
 		}
-		else if(xoro=='O') {
+		else if(xoro=='O'||xoro=='o') {
 			xoro='o';
 			System.out.println("Player 2 have to use 'x'");
 		}
