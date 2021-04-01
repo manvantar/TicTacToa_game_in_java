@@ -12,7 +12,6 @@ public class TicTakToa {
 
 	char chooseXorO(){
 		char xoro=' ';
-
 		while(xoro!='x' && xoro !='o' && xoro !='X'&&xoro!='O') {
 			System.out.println("Player 1 select X or O");
 			Scanner s=new Scanner(System.in);
@@ -26,8 +25,6 @@ public class TicTakToa {
 			xoro='o';
 			System.out.println("Player 2 have to use 'x'");
 		}
-		
 		return xoro;
-
 	}
 }
